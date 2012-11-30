@@ -1,0 +1,190 @@
+#wrapper{
+    width:760px; 
+    height:532px;
+    margin: 100px auto;
+    background: url('../images/penguinHoliday.png') no-repeat;
+    border:solid .7em #A00;
+}
+
+img{
+max-width:100%; 
+
+}
+
+@-webkit-keyframes snow{
+    0% {-webkit-transform: translate(0px, 0px);}
+    100%{-webkit-transform: translate(0px, 350px);}
+}
+
+
+@-webkit-keyframes drift{
+    0%{margin-left: 0;}
+    100%{margin-left:110px;}
+}
+
+
+@-moz-keyframes snow{
+    0% {-moz-transform: translate(0px, 0px);}
+    100%{-moz-transform: translate(0px, 350px);}
+}
+
+@-moz-keyframes drift{
+    0%{margin-left: 0;}
+    100%{margin-left:110px;}
+}
+
+@-ms-keyframes snow{
+    0% {-ms-transform: translate(0px, 0px);}
+    100%{-ms-transform: translate(0px, 350px);}
+}
+
+
+@-ms-keyframes drift{
+    0%{margin-left: 0;}
+    100%{margin-left:110px;}
+}
+
+@-webkit-keyframes  fade{
+        0%{ opacity: 0;}
+        25%{opacity:1;}
+        75%{opacity:1;}   
+        100% { opacity: 0; }
+}
+    
+@-moz-keyframes  fade{
+        0%{ opacity: 0;}
+        25%{opacity:1;}
+        75%{opacity:1;}   
+        100% { opacity: 0; }
+}
+
+@-ms-keyframes  fade{
+        0%{ opacity: 0;}
+        25%{opacity:1;}
+        75%{opacity:1;}   
+        100% { opacity: 0; }
+}
+
+.snowOne, .snowTwo, .snowThree, .snowFour, .snowFive, .snowSix{
+    position:relative;
+    background-color:#FFFFFF;
+    -webkit-animation-name: snow, drift, fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-name: snow, drift, fade;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-name: snow, drift, fade;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: ease-in;
+}
+
+.snowOne{
+    left: 200px;
+    width:14px;
+    height:14px;
+    border-radius:7px;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -ms-animation-duration: 6s;
+}
+
+#moveOne{
+    left:620px;
+    top:-50px;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -ms-animation-duration: 5s;
+}
+
+#slowOne{
+    left:40px;
+    top:-100px;
+    -webkit-animation-duration: 10s;
+    -moz-animation-duration: 10s;
+    -ms-animation-duration: 10s;
+}
+
+.snowTwo{
+    width:10px;
+    height:10px;
+    border-radius:5px;
+    -webkit-animation-duration: 7s;
+    -moz-animation-duration: 7s;
+    -ms-animation-duration: 7s;
+}
+
+#moveTwo{
+    left: 640px;
+    top:-50px;
+    -webkit-animation-duration: 11s;
+    -moz-animation-duration: 11s;
+    -ms-animation-duration: 11s;
+}
+
+.snowThree{
+    left:80px;
+    width:12px;
+    height:12px;
+    border-radius:6px;  
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -ms-animation-duration: 5s;
+}
+
+#moveThree{
+    left:500px;
+    top:-70px;
+    -webkit-animation-duration: 8s;
+    -moz-animation-duration: 8s;
+    -ms-animation-duration: 8s;
+}
+
+.snowFour{
+    left:350px;
+    width:8px;
+    height:8px;
+    border-radius:4px;
+    -webkit-animation-duration: 7s;
+    -moz-animation-duration: 7s;
+    -ms-animation-duration: 7s;
+}
+
+.snowFive{
+    left:150px;
+    top:-35px;
+    width:8px;
+    height:8px;
+    border-radius:4px;
+    -webkit-animation-duration: 10s;
+    -moz-animation-duration: 10s;
+    -ms-animation-duration: 10s;
+}
+
+#moveFive{
+    left:400px;
+    top:-90px;
+    -webkit-animation-duration: 5s; 
+    -moz-animation-duration: 5s;    
+    -ms-animation-duration: 5s; 
+}
+
+.snowSix{
+    left:300px;
+    top:-40px;
+    width:10px;
+    height:10px;
+    border-radius:5px;
+    -webkit-animation-duration: 9s;
+    -moz-animation-duration: 9s;
+    -ms-animation-duration: 9s;
+}
+
+#moveSix{
+    left:560px;
+    top:-80px;
+}
+
+
+
+
