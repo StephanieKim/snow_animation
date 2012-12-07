@@ -11,6 +11,7 @@ Details
 
 Basically all you need to do is create some empty divs in your HTML 
 and create circles in the css
+
         <div class="snowOne"></div>
         <div class="snowTwo"></div>
         <div class="snowThree"></div>
@@ -23,7 +24,6 @@ and create circles in the css
         <div class="snowFive" id="moveFive"></div>
         <div class="snowOne" id="slowOne"></div>
         <div class="snowSix" id="moveSix"></div>
-
 The trick is to start the animations at different times and angles 
 yet they need to come from the same direction so it looks natural.
 
